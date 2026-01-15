@@ -1,8 +1,9 @@
 import json
 from pathlib import Path
+
 import pandas as pd
 import streamlit as st
-
+import joblib
 
 ART = Path(__file__).resolve().parent / "artifacts"
 MODEL_PATH = ART / "model.joblib"
