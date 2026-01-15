@@ -29,3 +29,7 @@ A Streamlit web app that predicts fetal health status from Cardiotocography (CTG
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
+## Dataset
+Source: UCI Machine Learning Repository — Cardiotocography (CTG) dataset (ID: 193).  
+Used for educational purposes.
